@@ -23,7 +23,6 @@ namespace Days.of.Week
             bool isSuccess = int.TryParse(txbDayNO.Text,out num);
             if (isSuccess == true) 
                 DaysOfWeek(num); 
-           // else MessageBox.Show("عددی بین 0 تا 6 وارد کنید");
             else MessageBox.Show("عددی بین 0 تا 6 وارد کنید");
 
         }
@@ -56,7 +55,6 @@ namespace Days.of.Week
                 default:
                     MessageBox.Show("عددی بین 0 تا 6 وارد کنید");
                     break;
-
             }
             
         }
